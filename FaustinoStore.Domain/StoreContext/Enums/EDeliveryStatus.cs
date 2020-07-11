@@ -1,4 +1,4 @@
-namespace Faustinotore.Domain.StoreContext.Enums
+namespace FaustinoStore.Domain.StoreContext.Enums
 {
 
   public enum EDeliveryStatus

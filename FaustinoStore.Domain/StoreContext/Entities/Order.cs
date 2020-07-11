@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using Faustinotore.Domain.StoreContext.Enums;
+using FaustinoStore.Domain.StoreContext.Enums;
 
 namespace FaustinoStore.Domain.StoreContext.Entities
 {
