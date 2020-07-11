@@ -13,8 +13,7 @@ namespace FaustinoStore.Domain.StoreContext.Entities
       Name name,
       Document document,
       Email email,
-      string phone,
-      string address)
+      string phone)
     {
       Name = name;
       Document = document;
