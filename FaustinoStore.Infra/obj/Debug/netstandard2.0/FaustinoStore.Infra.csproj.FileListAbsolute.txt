@@ -1,0 +1,9 @@
+C:\projetos\FaustinoStore\FaustinoStore.Infra\bin\Debug\netstandard2.0\FaustinoStore.Infra.deps.json
+C:\projetos\FaustinoStore\FaustinoStore.Infra\bin\Debug\netstandard2.0\FaustinoStore.Infra.dll
+C:\projetos\FaustinoStore\FaustinoStore.Infra\bin\Debug\netstandard2.0\FaustinoStore.Infra.pdb
+C:\projetos\FaustinoStore\FaustinoStore.Infra\obj\Debug\netstandard2.0\FaustinoStore.Infra.csprojAssemblyReference.cache
+C:\projetos\FaustinoStore\FaustinoStore.Infra\obj\Debug\netstandard2.0\FaustinoStore.Infra.AssemblyInfoInputs.cache
+C:\projetos\FaustinoStore\FaustinoStore.Infra\obj\Debug\netstandard2.0\FaustinoStore.Infra.AssemblyInfo.cs
+C:\projetos\FaustinoStore\FaustinoStore.Infra\obj\Debug\netstandard2.0\FaustinoStore.Infra.csproj.CoreCompileInputs.cache
+C:\projetos\FaustinoStore\FaustinoStore.Infra\obj\Debug\netstandard2.0\FaustinoStore.Infra.dll
+C:\projetos\FaustinoStore\FaustinoStore.Infra\obj\Debug\netstandard2.0\FaustinoStore.Infra.pdb

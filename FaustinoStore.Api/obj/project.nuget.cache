@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AdOLgyCdSVgcKinmo8n9nBeTNWIDcD/Q6/sEquTHN/o/PUGeOZ7iufcRK9R98u4SvUvtVwHQVv7WF61O2RUPtw==",
+  "success": true,
+  "projectFilePath": "C:\\projetos\\FaustinoStore\\FaustinoStore.Api\\FaustinoStore.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joaoh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

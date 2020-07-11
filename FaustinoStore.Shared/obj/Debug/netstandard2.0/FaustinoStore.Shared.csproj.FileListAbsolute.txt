@@ -1,0 +1,9 @@
+C:\projetos\FaustinoStore\FaustinoStore.Shared\bin\Debug\netstandard2.0\FaustinoStore.Shared.deps.json
+C:\projetos\FaustinoStore\FaustinoStore.Shared\bin\Debug\netstandard2.0\FaustinoStore.Shared.dll
+C:\projetos\FaustinoStore\FaustinoStore.Shared\bin\Debug\netstandard2.0\FaustinoStore.Shared.pdb
+C:\projetos\FaustinoStore\FaustinoStore.Shared\obj\Debug\netstandard2.0\FaustinoStore.Shared.csprojAssemblyReference.cache
+C:\projetos\FaustinoStore\FaustinoStore.Shared\obj\Debug\netstandard2.0\FaustinoStore.Shared.AssemblyInfoInputs.cache
+C:\projetos\FaustinoStore\FaustinoStore.Shared\obj\Debug\netstandard2.0\FaustinoStore.Shared.AssemblyInfo.cs
+C:\projetos\FaustinoStore\FaustinoStore.Shared\obj\Debug\netstandard2.0\FaustinoStore.Shared.csproj.CoreCompileInputs.cache
+C:\projetos\FaustinoStore\FaustinoStore.Shared\obj\Debug\netstandard2.0\FaustinoStore.Shared.dll
+C:\projetos\FaustinoStore\FaustinoStore.Shared\obj\Debug\netstandard2.0\FaustinoStore.Shared.pdb
