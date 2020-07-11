@@ -24,6 +24,9 @@ namespace FaustinoStore.Tests
       //Realizar pedido
       order.Place();
 
+      //Verificar se o pedido é válido
+      var valid  = order.Valid;
+
       //Realizar o pagamento
       order.Pay();
 

@@ -2,10 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using FaustinoStore.Domain.StoreContext.Enums;
+using FluentValidator;
 
 namespace FaustinoStore.Domain.StoreContext.Entities
 {
-  public class Order
+  public class Order : Notifiable
   {
     private readonly IList<OrderItem> _items;
     private readonly IList<Delivery> _deliveries;
@@ -36,6 +37,9 @@ namespace FaustinoStore.Domain.StoreContext.Entities
     {
       //Gera o n° do pedido
       Number = Guid.NewGuid().ToString().Replace("-", "").Substring(0, 8).ToUpper();
+      if(_items.Count == 0)
+        AddNotification("Order","Este pedido não possui itens");
+
     }
 
     // Pagar um pedido
