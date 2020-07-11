@@ -28,17 +28,22 @@ namespace FaustinoStore.Domain.StoreContext.Entities
     public IReadOnlyCollection<OrderItem> Items => _items.ToArray();
     public IReadOnlyCollection<Delivery> Deliveries => _deliveries.ToArray();
 
-    public void AddItem(OrderItem item)
+    public void AddItem(Product product, decimal quantity)
     {
+      if (quantity > product.QuantityOnHand)
+        AddNotification("OrderItem", $"Produto {product.Title} não tem {quantity} itens em estoque.");
+
+      var item = new OrderItem(product, quantity);
       _items.Add(item);
     }
+    
     // Criar um pedido
     public void Place()
     {
       //Gera o n° do pedido
       Number = Guid.NewGuid().ToString().Replace("-", "").Substring(0, 8).ToUpper();
-      if(_items.Count == 0)
-        AddNotification("Order","Este pedido não possui itens");
+      if (_items.Count == 0)
+        AddNotification("Order", "Este pedido não possui itens");
 
     }
 
@@ -47,7 +52,7 @@ namespace FaustinoStore.Domain.StoreContext.Entities
     {
       Status = EOrderStatus.Paid;
     }
-    
+
     public void Ship()
     {
       // A cada 5 produtos é uma entrega
