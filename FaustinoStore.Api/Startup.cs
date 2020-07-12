@@ -17,6 +17,8 @@ namespace FaustinoStore.Api
     {
       services.AddMvc();
 
+      services.AddResponseCompression();
+
       services.AddScoped<FaustinoDataContext, FaustinoDataContext>();
       services.AddTransient<ICustomerRepository, CustomerRepository>();
       services.AddTransient<IEmailService, EmailService>();
@@ -29,6 +31,7 @@ namespace FaustinoStore.Api
         app.UseDeveloperExceptionPage();
 
       app.UseMvc();
+      app.UseResponseCompression();
     }
   }
 }
