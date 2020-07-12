@@ -9,8 +9,8 @@ namespace FaustinoStore.Domain.StoreContext.Handlers
 {
   public class CustomerHandler :
         Notifiable,
-        ICommandHandler<CreateCustomerCommand>
-        //ICommandHandler<AddAddressCommand>
+        ICommandHandler<CreateCustomerCommand>,
+        ICommandHandler<AddAddressCommand>
   {
     public ICommandResult Handle(CreateCustomerCommand command)
     {
