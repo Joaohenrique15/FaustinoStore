@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using FaustinoStore.Domain.StoreContext.Entities;
+using FaustinoStore.Domain.StoreContext.Queries;
 using FaustinoStore.Domain.StoreContext.Repositories;
 
 namespace FaustinoStore.Tests
@@ -16,6 +17,12 @@ namespace FaustinoStore.Tests
     {
       return false;
     }
+
+    public CustomerOrdersCountResult GetCustomerOrdersCount(string document)
+    {
+      throw new NotImplementedException();
+    }
+
     public void Save(Customer customer)
     {
 

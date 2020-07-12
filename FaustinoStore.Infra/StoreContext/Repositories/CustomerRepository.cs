@@ -4,6 +4,7 @@ using FaustinoStore.Domain.StoreContext.Entities;
 using FaustinoStore.Domain.StoreContext.Repositories;
 using FaustinoStore.Infra.DataContexts;
 using Dapper;
+using FaustinoStore.Domain.StoreContext.Queries;
 
 namespace FaustinoStore.Infra.StoreContext.Repositories
 {
@@ -70,6 +71,17 @@ namespace FaustinoStore.Infra.StoreContext.Repositories
           Type = address.Type,
         }, commandType: CommandType.StoredProcedure);
       }
+    }
+
+    public CustomerOrdersCountResult GetCustomerOrdersCount(string document)
+    {
+      return _context
+          .Connection
+          .Query<CustomerOrdersCountResult>(
+              "spGetCustomerOrdersCount",
+              new { Document = document },
+              commandType: CommandType.StoredProcedure)
+          .FirstOrDefault();
     }
   }
 }
