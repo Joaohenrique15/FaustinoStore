@@ -4,4 +4,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FaustinoStore.Domain\FaustinoStore.Domain.csproj" />
+    <ProjectReference Include="..\FaustinoStore.Shared\FaustinoStore.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
