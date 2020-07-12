@@ -54,7 +54,11 @@ namespace FaustinoStore.Domain.StoreContext.Handlers
       _emailService.Send(email.Address,"joao.henrique_15@hotmail.com","Bem vindo", "Seja bem vindo ao Faustino Store!");
 
       // Retornar o resultado para tela
-      return new CreateCustomerCommandResult(Guid.NewGuid(), name.ToString(), email.Address);
+      return new CommandResult(true, "Bem vindo ao Faustino Store", new{
+        Id = customer.Id,
+        Name = name.ToString(),
+        Email = email.Address
+      });
     }
 
     public ICommandResult Handle(AddAddressCommand command)

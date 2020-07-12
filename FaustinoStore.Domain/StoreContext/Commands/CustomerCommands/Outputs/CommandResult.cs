@@ -1,10 +1,12 @@
+using System;
+using FaustinoStore.Domain.StoreContext.ValueObjects;
 using FaustinoStore.Shared.Commands;
 
 namespace FaustinoStore.Domain.StoreContext.CustomerCommands.Inputs
 {
-  public class CreateCustomerCommandResult : ICommandResult
+  public class CommandResult : ICommandResult
   {
-    public CreateCustomerCommandResult(bool success, string message, object data)
+    public CommandResult(bool success, string message, object data)
     {
       Success = success;
       Message = message;
