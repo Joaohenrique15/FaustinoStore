@@ -1,7 +1,7 @@
 using FaustinoStore.Domain.StoreContext.CustomerCommands.Inputs;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace BaltaStore.Tests
+namespace FaustinoStore.Tests
 {
   [TestClass]
   public class CreateCustomerCommandTests
