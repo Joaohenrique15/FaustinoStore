@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2pnmeoxy9d7SbGwtO9hRO5FgaKBg/fxMNm3OHzcPnzIeNZPgkXvGaEFm30s1uVQt+eEkxftn4UkdWCzC2KihzQ==",
+  "dgSpecHash": "9hn/+HdMOlsymQpI6ag+c7xOXjQHKrZp6dIUKz+EfoCYrt2+DrSQ4vyyoJw5fgXCK4emZw2wem5n3ECfovodkQ==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\FaustinoStore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj",
+  "projectFilePath": "C:\\projetos\\faustinostore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\joaoh\\.nuget\\packages\\fluentvalidator\\2.0.4\\fluentvalidator.2.0.4.nupkg.sha512",
+    "C:\\Users\\joaoh\\.nuget\\packages\\fluentvalidator\\2.0.2\\fluentvalidator.2.0.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],

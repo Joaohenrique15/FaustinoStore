@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos\\FaustinoStore\\FaustinoStore.Tests\\FaustinoStore.Tests.csproj": {}
+    "C:\\projetos\\faustinostore\\FaustinoStore.Tests\\FaustinoStore.Tests.csproj": {}
   },
   "projects": {
-    "C:\\projetos\\FaustinoStore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj": {
+    "C:\\projetos\\faustinostore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\FaustinoStore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj",
+        "projectUniqueName": "C:\\projetos\\faustinostore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj",
         "projectName": "FaustinoStore.Domain",
-        "projectPath": "C:\\projetos\\FaustinoStore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj",
+        "projectPath": "C:\\projetos\\faustinostore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj",
         "packagesPath": "C:\\Users\\joaoh\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\FaustinoStore\\FaustinoStore.Domain\\obj\\",
+        "outputPath": "C:\\projetos\\faustinostore\\FaustinoStore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -44,7 +44,7 @@
           "dependencies": {
             "FluentValidator": {
               "target": "Package",
-              "version": "[2.0.4, )"
+              "version": "[2.0.2, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\projetos\\FaustinoStore\\FaustinoStore.Tests\\FaustinoStore.Tests.csproj": {
+    "C:\\projetos\\faustinostore\\FaustinoStore.Tests\\FaustinoStore.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\FaustinoStore\\FaustinoStore.Tests\\FaustinoStore.Tests.csproj",
+        "projectUniqueName": "C:\\projetos\\faustinostore\\FaustinoStore.Tests\\FaustinoStore.Tests.csproj",
         "projectName": "FaustinoStore.Tests",
-        "projectPath": "C:\\projetos\\FaustinoStore\\FaustinoStore.Tests\\FaustinoStore.Tests.csproj",
+        "projectPath": "C:\\projetos\\faustinostore\\FaustinoStore.Tests\\FaustinoStore.Tests.csproj",
         "packagesPath": "C:\\Users\\joaoh\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\FaustinoStore\\FaustinoStore.Tests\\obj\\",
+        "outputPath": "C:\\projetos\\faustinostore\\FaustinoStore.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -94,8 +94,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\projetos\\FaustinoStore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj": {
-                "projectPath": "C:\\projetos\\FaustinoStore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj"
+              "C:\\projetos\\faustinostore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj": {
+                "projectPath": "C:\\projetos\\faustinostore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj"
               }
             }
           }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos\\FaustinoStore\\FaustinoStore.Api\\FaustinoStore.Api.csproj": {}
+    "C:\\projetos\\faustinostore\\FaustinoStore.Api\\FaustinoStore.Api.csproj": {}
   },
   "projects": {
-    "C:\\projetos\\FaustinoStore\\FaustinoStore.Api\\FaustinoStore.Api.csproj": {
+    "C:\\projetos\\faustinostore\\FaustinoStore.Api\\FaustinoStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\FaustinoStore\\FaustinoStore.Api\\FaustinoStore.Api.csproj",
+        "projectUniqueName": "C:\\projetos\\faustinostore\\FaustinoStore.Api\\FaustinoStore.Api.csproj",
         "projectName": "FaustinoStore.Api",
-        "projectPath": "C:\\projetos\\FaustinoStore\\FaustinoStore.Api\\FaustinoStore.Api.csproj",
+        "projectPath": "C:\\projetos\\faustinostore\\FaustinoStore.Api\\FaustinoStore.Api.csproj",
         "packagesPath": "C:\\Users\\joaoh\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\FaustinoStore\\FaustinoStore.Api\\obj\\",
+        "outputPath": "C:\\projetos\\faustinostore\\FaustinoStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

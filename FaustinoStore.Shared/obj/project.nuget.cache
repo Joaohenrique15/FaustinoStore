@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pb8Tn5O+XYYr0UX8iJdAZzor8c3hfqjfQQvVqsl7ON16jCcGo64K1yv7ALBxLLWSye3cAUcF6H98ZAOr/G1+QQ==",
+  "dgSpecHash": "eW4b2pU+lDrSNCNxab93vlXD4fZ9BDK6dZxMBp37Jdbk9/QYjW3G7/4XTpGPsLkkR8aeugDefFU0Yo4LZ4088Q==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\FaustinoStore\\FaustinoStore.Shared\\FaustinoStore.Shared.csproj",
+  "projectFilePath": "C:\\projetos\\faustinostore\\FaustinoStore.Shared\\FaustinoStore.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

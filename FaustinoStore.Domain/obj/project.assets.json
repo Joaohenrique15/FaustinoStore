@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "FluentValidator/2.0.4": {
+      "FluentValidator/2.0.2": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1"
@@ -41,14 +41,14 @@
     }
   },
   "libraries": {
-    "FluentValidator/2.0.4": {
-      "sha512": "px1HWHYBD20PuCUgz/mEl/QcBsikW5nbdtR5whllwMIyJ4FJs03nGXe5ocHEre/x3CX72hJBnX7bteqkZwlcfA==",
+    "FluentValidator/2.0.2": {
+      "sha512": "+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
       "type": "package",
-      "path": "fluentvalidator/2.0.4",
+      "path": "fluentvalidator/2.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fluentvalidator.2.0.4.nupkg.sha512",
+        "fluentvalidator.2.0.2.nupkg.sha512",
         "fluentvalidator.nuspec",
         "lib/netstandard1.3/FluentValidator.dll"
       ]
@@ -199,7 +199,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "FluentValidator >= 2.0.4",
+      "FluentValidator >= 2.0.2",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -210,11 +210,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\projetos\\FaustinoStore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj",
+      "projectUniqueName": "C:\\projetos\\faustinostore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj",
       "projectName": "FaustinoStore.Domain",
-      "projectPath": "c:\\projetos\\FaustinoStore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj",
+      "projectPath": "C:\\projetos\\faustinostore\\FaustinoStore.Domain\\FaustinoStore.Domain.csproj",
       "packagesPath": "C:\\Users\\joaoh\\.nuget\\packages\\",
-      "outputPath": "c:\\projetos\\FaustinoStore\\FaustinoStore.Domain\\obj\\",
+      "outputPath": "C:\\projetos\\faustinostore\\FaustinoStore.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -247,7 +247,7 @@
         "dependencies": {
           "FluentValidator": {
             "target": "Package",
-            "version": "[2.0.4, )"
+            "version": "[2.0.2, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",

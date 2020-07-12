@@ -33,7 +33,7 @@ namespace FaustinoStore.Tests
         [TestMethod]
         public void ShouldCreateOrderWhenValid()
         {
-            Assert.AreEqual(true, _order.Valid);
+            Assert.AreEqual(true, _order.IsValid);
         }
 
         // Ao criar o pedido, o status deve ser created

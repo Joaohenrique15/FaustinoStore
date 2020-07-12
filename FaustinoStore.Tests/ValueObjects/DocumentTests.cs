@@ -19,14 +19,14 @@ namespace FaustinoStore.Tests
         [TestMethod]
         public void ShouldReturnNotificationWhenDocumentIsNotValid()
         {
-            Assert.AreEqual(false, invalidDocument.Valid);
+            Assert.AreEqual(false, invalidDocument.IsValid);
             Assert.AreEqual(1, invalidDocument.Notifications.Count);
         }
 
         [TestMethod]
         public void ShouldReturnNotNotificationWhenDocumentIsValid()
         {
-            Assert.AreEqual(true, validDocument.Valid);
+            Assert.AreEqual(true, validDocument.IsValid);
             Assert.AreEqual(0, validDocument.Notifications.Count);
         }
     }
