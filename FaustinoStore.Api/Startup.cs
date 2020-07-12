@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 
 namespace FaustinoStore.Api
 {
@@ -23,6 +24,12 @@ namespace FaustinoStore.Api
       services.AddTransient<ICustomerRepository, CustomerRepository>();
       services.AddTransient<IEmailService, EmailService>();
       services.AddTransient<CustomerHandler, CustomerHandler>();
+
+      services.AddSwaggerGen(x =>
+      {
+        x.SwaggerDoc("v1", new OpenApiInfo { Title = "FaustinoStore", Version = "v1" });
+      });
+
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -32,6 +39,13 @@ namespace FaustinoStore.Api
 
       app.UseMvc();
       app.UseResponseCompression();
+
+      app.UseSwagger();
+      app.UseSwaggerUI(c =>
+        {
+          c.SwaggerEndpoint("/swagger/v1/swagger.json", "FaustinoStore - v1");
+        });
+
     }
   }
 }
