@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
 using FaustinoStore.Domain.StoreContext.Enums;
+using FaustinoStore.Shared.Entities;
 using FluentValidator;
 
 namespace FaustinoStore.Domain.StoreContext.Entities
 {
-  public class Delivery : Notifiable
+  public class Delivery : Entity
   {
     public Delivery(DateTime estimateDeliveryDate)
     {

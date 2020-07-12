@@ -1,9 +1,10 @@
 using FaustinoStore.Domain.StoreContext.Enums;
+using FaustinoStore.Shared.Entities;
 using FluentValidator;
 
 namespace FaustinoStore.Domain.StoreContext.Entities
 {
-  public class Address : Notifiable
+  public class Address : Entity
   {
     public Address(string street,
         string number,

@@ -1,8 +1,9 @@
+using FaustinoStore.Shared.Entities;
 using FluentValidator;
 
 namespace FaustinoStore.Domain.StoreContext.Entities
 {
-  public class Product : Notifiable
+  public class Product : Entity
   {
     public Product(
       string title,
