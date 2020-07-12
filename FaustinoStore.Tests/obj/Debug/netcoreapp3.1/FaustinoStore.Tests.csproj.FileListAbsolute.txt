@@ -95,3 +95,5 @@ C:\projetos\FaustinoStore\FaustinoStore.Tests\obj\Debug\netcoreapp3.1\FaustinoSt
 C:\projetos\FaustinoStore\FaustinoStore.Tests\bin\Debug\netcoreapp3.1\FaustinoStore.Domain.dll
 C:\projetos\FaustinoStore\FaustinoStore.Tests\bin\Debug\netcoreapp3.1\FaustinoStore.Domain.pdb
 C:\projetos\FaustinoStore\FaustinoStore.Tests\bin\Debug\netcoreapp3.1\FluentValidator.dll
+C:\projetos\faustinostore\FaustinoStore.Tests\bin\Debug\netcoreapp3.1\FaustinoStore.Shared.dll
+C:\projetos\faustinostore\FaustinoStore.Tests\bin\Debug\netcoreapp3.1\FaustinoStore.Shared.pdb

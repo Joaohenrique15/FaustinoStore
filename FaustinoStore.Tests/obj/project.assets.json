@@ -1651,6 +1651,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FaustinoStore.Shared": "1.0.0",
           "FluentValidator": "2.0.2"
         },
         "compile": {
@@ -1658,6 +1659,16 @@
         },
         "runtime": {
           "bin/placeholder/FaustinoStore.Domain.dll": {}
+        }
+      },
+      "FaustinoStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/FaustinoStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FaustinoStore.Shared.dll": {}
         }
       }
     }
@@ -5686,6 +5697,11 @@
       "type": "project",
       "path": "../FaustinoStore.Domain/FaustinoStore.Domain.csproj",
       "msbuildProject": "../FaustinoStore.Domain/FaustinoStore.Domain.csproj"
+    },
+    "FaustinoStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../FaustinoStore.Shared/FaustinoStore.Shared.csproj",
+      "msbuildProject": "../FaustinoStore.Shared/FaustinoStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
