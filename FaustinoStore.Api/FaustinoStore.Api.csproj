@@ -5,7 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidator" Version="2.0.2" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FaustinoStore.Domain\FaustinoStore.Domain.csproj" />
+    <ProjectReference Include="..\FaustinoStore.Shared\FaustinoStore.Shared.csproj" />
+    <ProjectReference Include="..\FaustinoStore.Infra\FaustinoStore.Infra.csproj" />
   </ItemGroup>
 
 </Project>
