@@ -5,6 +5,8 @@ using FaustinoStore.Domain.StoreContext.Repositories;
 using FaustinoStore.Infra.DataContexts;
 using Dapper;
 using FaustinoStore.Domain.StoreContext.Queries;
+using System.Collections.Generic;
+using System;
 
 namespace FaustinoStore.Infra.StoreContext.Repositories
 {
@@ -83,5 +85,31 @@ namespace FaustinoStore.Infra.StoreContext.Repositories
               commandType: CommandType.StoredProcedure)
           .FirstOrDefault();
     }
+
+    public IEnumerable<ListCustomerQueryResult> Get()
+    {
+      return
+          _context
+          .Connection
+          .Query<ListCustomerQueryResult>("SELECT [Id], CONCAT([FirstName], ' ', [LastName]) AS [Name], [Document], [Email] FROM [Customer]", new { });
+    }
+
+    public GetCustomerQueryResult Get(Guid id)
+    {
+      return
+          _context
+          .Connection
+          .Query<GetCustomerQueryResult>("SELECT [Id], CONCAT([FirstName], ' ', [LastName]) AS [Name], [Document], [Email] FROM [Customer] WHERE [Id]=@id", new { id = id })
+          .FirstOrDefault();
+    }
+    public IEnumerable<ListCustomerOrdersQueryResult> GetOrders(Guid id)
+    {
+      return
+          _context
+          .Connection
+          .Query<ListCustomerOrdersQueryResult>("", new { id = id });
+    }
+
+
   }
 }
