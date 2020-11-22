@@ -1,4 +1,4 @@
-# Balta.io - Curso da Formação Backend (Criando APIs com ASP.NET Core 2.0 e Dapper)
+# Balta.io  - Curso da Formação Backend (Criando APIs com ASP.NET Core 2.0 e Dapper)
 
 Alguns dos conceitos abordados:
 - Modelagem de dominíos Ricos
